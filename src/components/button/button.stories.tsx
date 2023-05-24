@@ -15,5 +15,5 @@ type Story = StoryObj<typeof Button>;
 export const Primary: Story = (args: ButtonProps) => <Button data-test-id='button' {...args} />;
 Primary.args = {
   disabled: false,
-  label: 'Primary',
+  children: 'Primary',
 };

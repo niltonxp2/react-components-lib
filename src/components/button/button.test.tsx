@@ -6,7 +6,7 @@ import { Button } from './button';
 
 describe('Button component', () => {
   test('Check Button Disabled', () => {
-    render(<Button label='test' disabled />);
+    render(<Button disabled>test</Button>);
     expect(screen.getByRole('button', { name: 'test' })).toBeDisabled();
   });
 });
