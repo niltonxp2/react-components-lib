@@ -1,4 +1,5 @@
-.storybook
-storybook-static
-.node_modules
-src
+# Exclude all files and folders by default
+*
+
+# Include the "dist" folder
+!dist/
