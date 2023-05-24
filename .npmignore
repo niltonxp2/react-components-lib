@@ -1,9 +1,10 @@
+.storybook
+storybook-static
 node_modules
 .vscode
 dist
 src
-storybook-static
 jest.config.js
 rollup.config.mjs
-tsconfig.json
+*.json
 storybook.log
