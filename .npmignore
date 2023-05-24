@@ -1,5 +1,9 @@
-# Exclude all files and folders by default
-*
-
-# Include the "dist" folder
-!dist/
+node_modules
+.vscode
+dist
+src
+storybook-static
+jest.config.js
+rollup.config.mjs
+tsconfig.json
+storybook.log
